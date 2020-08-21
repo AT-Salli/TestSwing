@@ -35,6 +35,7 @@ public class ColorChooser extends JFrame implements ActionListener {
 		menu.add(submenu);
 		mb.add(menu);
 		f.setJMenuBar(mb);
+		
 		ta = new JTextArea();
 		ta.setBounds(10, 10, 300, 200);
 		f.add(b);f.add(ta);
@@ -50,20 +51,20 @@ public class ColorChooser extends JFrame implements ActionListener {
 		// TODO Auto-generated method stub
 		new ColorChooser();
 		
-		char posChar, negChar;
+		/*char posChar, negChar;
 		short posShort = 33;
 		short negShort = -1;
-		/* explizite Typumwandlung von dem Datentyp short in den Datentyp char */
+		//explizite Typumwandlung von dem Datentyp short in den Datentyp char 
 		posChar = (char) posShort;
 		negChar = (char) negShort;
 		 
 		// Ausgabe der expliziten Typumwandlung von oben
 		System.out.println("positiver Short " + posShort + " ist als Char " + posChar);
 		System.out.println("negativer Short " + negShort + " ist als Char " + negChar);
-		/* Ausgabe der erneuten expliziten Typumwandlung, diesmal von char nach int */
-		System.out.println("positiver Short " + posShort +" ist als Char " + (int) posChar);
+		//Ausgabe der erneuten expliziten Typumwandlung, diesmal von char nach int */
+		/*System.out.println("positiver Short " + posShort +" ist als Char " + (int) posChar);
 		System.out.println("negativer Short " + negShort + " ist als Char " + (int) negChar);
-		
+		*/
 	}
 
 	@SuppressWarnings("unused")
